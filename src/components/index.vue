@@ -1,10 +1,10 @@
 <template>
     <div class="ly-tab">
-        <Tab
+        <tab
             v-model="selectedId"
             v-bind="options"
         >
-            <TabItem
+            <tab-item
                 v-for="(item, index) in items"
                 :key="index"
                 :clstag="'jr|keycount|jiandandian_0305|hot_detail_top_tab_'+item[options.labelKey]"
@@ -16,8 +16,8 @@
                     <i :class="item.icon"></i>
                 </span>
                 <span>{{ item[labelKey] }}</span>
-            </TabItem>
-        </Tab>
+            </tab-item>
+        </tab>
     </div>
 </template>
 
@@ -26,7 +26,7 @@ import Tab from './tab.vue';
 import TabItem from './tab-item.vue';
 
 export default {
-    name: 'LyTab',
+    name: 'switchTab',
     components: {
         Tab,
         TabItem
