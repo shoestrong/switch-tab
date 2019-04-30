@@ -47,8 +47,7 @@ export default {
 };
 </script>
 
-<style  scoped lang="scss">
-@import '../scss/_size.scss';
+<style  scoped>
 .tab-item {
     display: flex;
     flex-direction: column;
@@ -56,7 +55,7 @@ export default {
     align-items: center;
     text-decoration: none;
     text-align: center;
-    font-size: $rem28;
+    font-size: 0.875rem;
     font-weight: 500;
     color: rgba(102, 102, 102, 1);
 }

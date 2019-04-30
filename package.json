@@ -1,9 +1,8 @@
 {
   "name": "switch-tab",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Switch Tab For Mobile Web",
   "author": "shoestrong <zqc_2007@yeah.net>",
-  "main": "src/lib/index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -52,17 +51,7 @@
     "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
   },
-  "keywords": [
-    "Vue",
-    "component",
-    "mobile",
-    "swap",
-    "reusable"
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shoestrong/switch-tab/issues"
-  },
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"

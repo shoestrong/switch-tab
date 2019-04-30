@@ -1,0 +1,32 @@
+{
+  "name": "switch-tab",
+  "version": "1.0.7",
+  "description": "Switch Tab For Mobile Web",
+  "author": "shoestrong <zqc_2007@yeah.net>",
+  "contributors": [
+    "shoestrong <zqc_2007@yeah.net>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoestrong/switch-tab.git"
+  },
+  "keywords": [
+    "Vue",
+    "component",
+    "mobile",
+    "switch-tab",
+    "tab",
+    "switch",
+    "tab切换"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoestrong/switch-tab/issues"
+  },
+  "homepage": "https://github.com/shoestrong/switch-tab#readme"
+}

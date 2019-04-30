@@ -317,8 +317,7 @@ export default {
 };
 </script>
 
-<style  scoped lang="scss">
-@import '@/scss/_size.scss';
+<style  scoped>
 .tabbar {
     position: relative;
     background-color: rgba(255, 255, 255, 0.8);
@@ -351,15 +350,15 @@ export default {
 
 .tab-active-bar {
     position: absolute;
-    bottom: $rem2;
+    bottom: 0.0625rem;
     left: 0;
-    width: $rem40;
-    height: $rem8;
+    width: 1.25rem;
+    height: 0.25rem;
 }
 
 .tab-item {
     flex-grow: 1;
-    font-size: $rem28;
+    font-size: 0.875rem;
     text-align: center;
     padding: 0 5px;
 }

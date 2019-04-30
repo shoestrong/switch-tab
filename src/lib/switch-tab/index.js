@@ -1,4 +1,4 @@
-import SwitchTab from '../components/index.vue'
+import SwitchTab from './lib/index.vue'
 
 const install = function (Vue, config = {}) {
   if (install.installed) return

@@ -8,7 +8,7 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld'
-import switchTab from './components/index'
+import switchTab from './lib/switch-tab/lib/index'
 
 export default {
   name: 'App',
