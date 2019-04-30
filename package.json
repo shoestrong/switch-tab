@@ -1,6 +1,6 @@
 {
   "name": "switch-tab",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Switch Tab For Mobile Web",
   "author": "shoestrong <zqc_2007@yeah.net>",
   "main": "src/lib/index.js",
